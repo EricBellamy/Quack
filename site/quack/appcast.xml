@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Quack</title>
+        <item>
+            <title>1.5.0</title>
+            <pubDate>Sat, 17 Oct 2026 06:18:07 -0400</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://updates.tired.dev/quack/Quack-1.5.0-15.zip" length="2711759" type="application/octet-stream" sparkle:edSignature="x8Hsnl3FlWmF8w5vChD8If+pnOIPDq9qrXkaE0rtJHQSqL3M+5gkddBOWCr8vuTIrK5ECqHi1BkL+ZnR7oVYAg=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: pPQb95/YCk7gAKEnJst4UTc2scrdHphfeba/PHQE1akHpGinmWyIsMHlFg4HjPsjMnogIOaSCZrBQAkGQG+MCw==
+length: 1088
+-->
