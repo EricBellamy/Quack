@@ -7,5 +7,15 @@
     "directory": "./site",
     "html_handling": "drop-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "updates.tired.dev/quack",
+      "zone_id": "0db959f696ef45afb34babd719f190ed"
+    },
+    {
+      "pattern": "updates.tired.dev/quack/*",
+      "zone_id": "0db959f696ef45afb34babd719f190ed"
+    }
+  ]
 }
