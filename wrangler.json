@@ -10,11 +10,7 @@
   },
   "routes": [
     {
-      "pattern": "updates.tired.dev/quack",
-      "zone_id": "0db959f696ef45afb34babd719f190ed"
-    },
-    {
-      "pattern": "updates.tired.dev/quack/*",
+      "pattern": "updates.tired.dev/quack*",
       "zone_id": "0db959f696ef45afb34babd719f190ed"
     }
   ]
