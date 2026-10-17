@@ -1,6 +1,13 @@
+import json
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
+config = json.loads((root / "wrangler.json").read_text())
+if "main" in config or config.get("assets", {}).get("run_worker_first") or config.get("r2_buckets"):
+    raise ValueError("Update hosting must serve static assets directly, without Worker code or R2 bindings.")
+for route in config.get("routes", []):
+    if "/" in route["pattern"] and not route["pattern"].endswith("*"):
+        raise ValueError("Path routes must end in * so query strings do not fall through to the old origin.")
 lines = []
 seen = set()
 for path in sorted((root / "redirects").glob("*.txt")):
