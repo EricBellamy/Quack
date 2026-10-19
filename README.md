@@ -14,7 +14,7 @@ A toggleable cleanup feature removes filler words and stutters, and spoken corre
 
 Ending with "send it" types the text and presses Return. "Trash what I said" discards the dictation. The phrases are long so that ordinary speech does not trigger them.
 
-A use words on screen feature allows Quack to read the text of the window it is about to type into when enabled. Such as the open file or the email you are replying to, and uses the names, identifiers, and acronyms it finds there to guide recognition for that dictation. Saying "fetch user profile" with `fetchUserProfile` on screen types `fetchUserProfile`. The text is read on the Mac and not saved.
+When enabled, a "use words on screen" feature allows Quack to read the text of the window it is about to type into. Such as the open file or the email you are replying to, and uses the names, identifiers, and acronyms it finds there to guide recognition for that dictation. Saying "fetch user profile" with `fetchUserProfile` on screen types `fetchUserProfile`. The text is read on the Mac and not saved.
 
 Speakers that are playing are muted while you talk and restored afterwards. Headphones are left alone.
 
