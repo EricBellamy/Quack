@@ -1,7 +1,7 @@
 name: Deploy static updates
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths: ["site/**", "redirects/**", "scripts/**", "wrangler.json", "package*.json", ".github/workflows/deploy.yml"]
   workflow_dispatch:
 permissions:
@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # Read main when this serialized job starts, so a queued run cannot restore older feeds.
+      # Read master when this serialized job starts, so a queued run cannot restore older feeds.
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          ref: main
+          ref: master
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
