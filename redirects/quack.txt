@@ -1,4 +1,4 @@
 /quack/Quack-1.5.0-15.zip https://github.com/EricBellamy/Quack/releases/download/quack-v1.5.0-15/Quack-1.5.0-15.zip 302
 /quack/models/Phonon-2-1143812fd4236522232a8c33e3115f0577e3cd7d.tar.xz https://github.com/EricBellamy/Quack/releases/download/quack-model-1143812fd4236522232a8c33e3115f0577e3cd7d/Phonon-2-1143812fd4236522232a8c33e3115f0577e3cd7d.tar.xz 302
 /quack/models/Phonon-2-1143812fd4236522232a8c33e3115f0577e3cd7d.zip https://github.com/EricBellamy/Quack/releases/download/quack-model-1143812fd4236522232a8c33e3115f0577e3cd7d/Phonon-2-1143812fd4236522232a8c33e3115f0577e3cd7d.zip 302
-/quack/Quack.dmg https://github.com/EricBellamy/Quack/releases/download/quack-v1.12.1-28/Quack-1.12.1-28-arm64.dmg 302
+/quack/Quack.dmg https://github.com/EricBellamy/Quack/releases/download/quack-v1.13.0-29/Quack-1.13.0-29-arm64.dmg 302
