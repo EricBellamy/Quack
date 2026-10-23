@@ -131,6 +131,12 @@
     "source_commit": "e2be9d20246af85c78c66e49f1d179eb3f4e06bf",
     "version": "1.14.1"
   },
+  "32": {
+    "app_cdhash": "d852be71435cf7b467f0ca7f17e7cf3d6264b8e2",
+    "archive_sha256": "7b866bf0ac8f5cf090eeef3ab004e6c3160cb99125b765a169879fbe2ed03508",
+    "source_commit": "a050d8d99f7c1f0aa9f19d557e754e2fd0ec73f3",
+    "version": "1.14.2"
+  },
   "4": {
     "app_cdhash": "ffcd6102e7d90a9c982a7696f7f5a68f87a3d847",
     "archive_sha256": "2b29abe248dac772e3adf43145af3db14edf5091d7a26dfc8f74dc15f3af7518",
