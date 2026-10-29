@@ -4,16 +4,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Quack</title>
         <item>
-            <title>1.18.1</title>
-            <pubDate>Wed, 28 Oct 2026 20:15:57 -0400</pubDate>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>1.18.1</sparkle:shortVersionString>
+            <title>1.18.2</title>
+            <pubDate>Wed, 28 Oct 2026 21:58:33 -0400</pubDate>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>1.18.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/EricBellamy/Quack/releases/download/quack-v1.18.1-40/Quack-1.18.1-40.zip" length="4754896" type="application/octet-stream" sparkle:edSignature="g0GYc1BbMPKuw5hp1mXzlZJ7wvlxSE2UO0JkaGGH1PWj5v6drmdszYPmg5eqjNrPucSR8uS2B9G/ddVO6/Y3Bg=="></enclosure>
+            <enclosure url="https://github.com/EricBellamy/Quack/releases/download/quack-v1.18.2-41/Quack-1.18.2-41.zip" length="4790554" type="application/octet-stream" sparkle:edSignature="V9B57PBBcMvlT/m/hSSqBczI3oC+V30Jqw94YVcXUXVTeaixvr5P+NInFlv1vnD9vR6DjnGWGStILNpg4MuXBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ngGMdelDNlZyndw2Pz+CZK924OKgKIelxMojSJioBTS8tFM7/EczQnr9xLvnaE+J1XMPtCUpOtiRFzI8tPfGDw==
+edSignature: JSJgKy1r5WhqrpwhBndilb0W4iuXuh4dmTyP7JzTbo3FfrHIfHQAREp8RahfzkZHUo9AM01E6WtsaIr2enyaBA==
 length: 1131
 -->
