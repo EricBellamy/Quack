@@ -401,6 +401,12 @@
     "source_commit": "61503522581a2e0ec42d7b09dd1574a95dda42ab",
     "version": "1.44.0"
   },
+  "74": {
+    "app_cdhash": "c7c648e6842b6a0dbcd226b5be23872b6a0526bb",
+    "archive_sha256": "f39b469f13f651f8f478e55abbe6e876045af12f599ee15fd1f9535853a40d8d",
+    "source_commit": "ff671d73f8bf20732af7a4ac029dbc9e66cc4e4a",
+    "version": "1.45.0"
+  },
   "8": {
     "app_cdhash": "589ec84bfaf398bff59f2d366460407c2ab561f6",
     "archive_sha256": "68bed41cc2d5ce2f21dbb2d053862911fbb0a82967bc5a588a3d05a0b5ab253f",
