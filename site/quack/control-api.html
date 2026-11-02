@@ -126,7 +126,7 @@
 <h2 id="control-socket">Control socket</h2>
 <p>Connect to the Unix domain stream socket at:</p>
 <pre><code>~/Library/Application Support/Quack/control.sock</code></pre>
-<p>Only the user who runs Quack can connect. If the socket is missing, Quack is not running. Start it with <code>open -g -b com.ericbellamy.Quack</code>, then retry.</p>
+<p>Only the user who runs Quack can connect. If the socket is missing, Quack is not running, or has only just launched and is still opening it. Start Quack with <code>open -g -b com.ericbellamy.Quack</code> only when it isn't running, then retry: macOS turns <code>open</code> on a running Quack into a reopen, which shows Settings.</p>
 <p>Each message is one JSON object on one line, ending with a newline (<code>\n</code>), in both directions. Requests are limited to 64 KB. A <code>words</code> reply can be longer. Quack ignores unknown fields. Clients must ignore unknown fields and unknown event types, because later versions can add them.</p>
 <h3 id="requests">Requests</h3>
 <p>Every request has an <code>op</code>. The optional <code>id</code> string is copied into the reply to that request.</p>
@@ -253,7 +253,7 @@ for line in events:
     if event["event"] in ("ended", "error"):
         break</code></pre>
 <h2 id="quackctl">quackctl</h2>
-<p><code>quackctl</code> is inside the app at <code>/Applications/Quack.app/Contents/MacOS/quackctl</code>. Quack also links it into a folder on the shell's <code>PATH</code>: <code>~/.local/bin</code> if that folder exists, otherwise <code>/opt/homebrew/bin</code> or <code>/usr/local/bin</code>. Quack updates the link when the app moves, and never replaces a <code>quackctl</code> that is not its own. Running the app itself from a shell, as in <code>Quack.app/Contents/MacOS/Quack --help</code> or <code>Quack recordings</code>, runs <code>quackctl</code>. If Quack is not running, <code>quackctl</code> starts it in the background.</p>
+<p><code>quackctl</code> is inside the app at <code>/Applications/Quack.app/Contents/MacOS/quackctl</code>. Quack also links it into a folder on the shell's <code>PATH</code>: <code>~/.local/bin</code> if that folder exists, otherwise <code>/opt/homebrew/bin</code> or <code>/usr/local/bin</code>. Quack updates the link when the app moves, and never replaces a <code>quackctl</code> that is not its own. Running the app itself from a shell, as in <code>Quack.app/Contents/MacOS/Quack --help</code> or <code>Quack recordings</code>, runs <code>quackctl</code>. If Quack is not running, <code>quackctl</code> starts it in the background. If Quack is running but its socket doesn't answer yet, as in its first moments after launch, <code>quackctl</code> waits up to 10 seconds instead of opening it again (<code>Sources/quackctl/Launch.swift</code>).</p>
 <p><code>quackctl --help</code> begins with the steps for fixing a word that Quack mishears. The Recordings folder in <code>~/Library/Application Support/Quack</code> holds a <code>README.txt</code> that points to the same commands.</p>
 <pre><code>quackctl status                             # Prints the status event.
 quackctl dictate                            # Prints the final text. Return or end of input finishes.
