@@ -508,5 +508,11 @@
     "archive_sha256": "6f666783cac13bec0e569828cfdb62b152656a9d320959ffb26a0c98118b0038",
     "source_commit": "7250f3662608b4fef66d8885ba21954e80bd435e",
     "version": "1.58.0"
+  },
+  "91": {
+    "app_cdhash": "9787961c29e9a2d9485ba816189ef711f6ad931f",
+    "archive_sha256": "37322f19212e1eac3d037e81c6fc174b2834cf41c5bb845ac965f0dba42edb3c",
+    "source_commit": "b54811f94831017a6d976d6ebfb2b8fadd79635a",
+    "version": "1.59.0"
   }
 }
