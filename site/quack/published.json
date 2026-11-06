@@ -502,5 +502,11 @@
     "archive_sha256": "f9ab584d23c1f2b106d47f52fa7b0b5eb24bcb34a1f61ca3c938213b923e739b",
     "source_commit": "4d2b789849e35f2a7c5909147c02d03d04e31fcd",
     "version": "1.3.0"
+  },
+  "90": {
+    "app_cdhash": "80b89053657b4a57ace71e411a7144a4ae5e1a1e",
+    "archive_sha256": "6f666783cac13bec0e569828cfdb62b152656a9d320959ffb26a0c98118b0038",
+    "source_commit": "7250f3662608b4fef66d8885ba21954e80bd435e",
+    "version": "1.58.0"
   }
 }
