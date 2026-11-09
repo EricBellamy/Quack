@@ -520,5 +520,11 @@
     "archive_sha256": "9c60f176638f8b7cf62653241a859ad557bb350a21ecae0e7b4b5546026c1feb",
     "source_commit": "52630dd745bb7ef5ce8940b2c034a01f3322ea7f",
     "version": "1.60.0"
+  },
+  "94": {
+    "app_cdhash": "b6002e41791e9ccc2ddbe379d029cfe281a745e8",
+    "archive_sha256": "729fc480483bfce228a816cbb876da157420cce9376dc9846a61526715c3abd9",
+    "source_commit": "a09a0783f5d1a6e25a4bb9de4c759dee734190aa",
+    "version": "1.61.0"
   }
 }
