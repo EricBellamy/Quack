@@ -544,5 +544,11 @@
     "archive_sha256": "b0687b8d2416831beccb28ed4442e5df42eeaa1ead4e3d7a5a85e84ac3a7d166",
     "source_commit": "66415cfdd61cdbe7d8b78f71fd9d35d26db5d637",
     "version": "1.63.1"
+  },
+  "98": {
+    "app_cdhash": "891f90219ecb0a38457700cc7c501df0a3b5e560",
+    "archive_sha256": "7be1f5a257f28d68807ecc4e2f354bda670b9ec3a0490ac53dcbbfe115616f2d",
+    "source_commit": "b2b35366f7f409e96328bccb4758cd1e3460fbaa",
+    "version": "1.64.0"
   }
 }
